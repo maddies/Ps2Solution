@@ -32,10 +32,10 @@ public class myIntegerTest {
 	public void testEquals() {
 		
 		MyInteger myInt = new MyInteger(5);
-		MyInteger myInt2 = new MyInteger(20);
+		MyInteger myInt2 = new MyInteger(7);
 
-		assertTrue(myInt.equals(5));
-		assertFalse(myInt2.equals(5));
+		assertTrue(myInt.isEquals(5));
+		assertFalse(myInt2.isEquals(5));
 	}
 	
 	@Test
